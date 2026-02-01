@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "fallingwind",
+  "version": "${version}",
+  "name": "Falling Wind Sound",
+  "description": "A client-side mod that plays wind sounds while falling, with intensity based on fall speed.",
+  "authors": [
+    "Lythroo_"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/falling-wind",
+    "sources": "https://modrinth.com/mod/falling-wind"
+  },
+  "license": "MIT",
+  "icon": "assets/fallingwind/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lythro.fallingwind.FallingWindMod"
+    ],
+    "modmenu": [
+      "com.lythro.fallingwind.ModMenuIntegration"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  }
+}

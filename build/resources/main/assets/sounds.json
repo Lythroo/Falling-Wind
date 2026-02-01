@@ -1,0 +1,12 @@
+{
+  "wind": {
+    "category": "ambient",
+    "subtitle": "subtitles.fallingwind.wind",
+    "sounds": [
+      {
+        "name": "fallingwind:wind",
+        "stream": true
+      }
+    ]
+  }
+}
